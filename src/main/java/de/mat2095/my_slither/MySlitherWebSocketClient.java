@@ -704,7 +704,6 @@ final class MySlitherWebSocketClient extends WebSocketClient {
         initRequest[3] = (byte) nick.length();
         for (int i = 0; i < nick.length(); i++) {
             initRequest[4 + i] = (byte) nick.codePointAt(i);
-            initRequest[4 + i] = (byte) nick.codePointAt(i);
         }
 
         // pre-init request
