@@ -31,7 +31,7 @@ final class MySlitherCanvas extends JPanel {
     private static final Color[] SNAKE_HALO_COLORS = new Color[]{new Color(0x60287BDE, true), new Color(0x00287BDE, true)};
     private static final Color[] OWN_SNAKE_HALO_COLORS = new Color[]{new Color(0x6039AFFF, true), new Color(0x0039AFFF, true)};
     private static final Color SNAKE_BODY_COLOR = new Color(0x6A8759);
-    private static final Color OWN_SNAKE_BODY_COLOR = new Color(0xA5C261);
+    private final Color OWN_SNAKE_BODY_COLOR = new Color(0xA5C261);
     private static final Color MAP_COLOR = new Color(0xA0A9B7C6, true);
     private static final Color MAP_POSITION_COLOR = new Color(0xE09E2927, true);
     private static final Color NAME_SHADOW_COLOR = new Color(0xC02B2B2B, true);

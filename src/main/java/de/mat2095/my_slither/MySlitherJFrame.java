@@ -296,12 +296,44 @@ final class MySlitherJFrame extends JFrame {
         }, 1, 10);
     }
     public Color getColor(){
-        if(snake.getSelectedIndex() == 0){
-            Color color = new Color(0x800080);
-            return color;
-        }
-        else{
-            Color color = new Color(0xA5C261);
+        switch(snake.getSelectedIndex()){
+            case 0:
+                Color color = new Color(0x800080);
+                return color;
+
+            case 1:
+                color = new Color(0x2765C4);
+                return color;
+
+            case 2:
+                color = new Color(0x0CE8D4);
+                return color;
+
+            case 3:
+                color = new Color(0x42D720);
+                return color;
+
+            case 4:
+                color = new Color (0xD0CD1A);
+                return color;
+
+            case 5:
+                color = new Color(0xC26A26);
+                return color;
+
+            case 6:
+                color = new Color(0xE77272);
+                return color;
+
+            case 7:
+                color = new Color (0xD91616);
+                return color;
+            case 8:
+                color = new Color (0x6C18F1);
+                return color;
+
+            default:
+            color = new Color(0xA5C261);
             return color;
         }
 

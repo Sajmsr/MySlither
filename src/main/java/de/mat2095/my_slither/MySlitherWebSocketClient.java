@@ -439,6 +439,7 @@ final class MySlitherWebSocketClient extends WebSocketClient {
         if (data.length != 4) {
             view.log("dead wrong length!");
             return;
+
         }
         int deathReason = data[3];
         switch (deathReason) {
